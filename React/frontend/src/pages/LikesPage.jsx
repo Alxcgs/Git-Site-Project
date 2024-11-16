@@ -10,13 +10,13 @@ const LikesPage = () => {
               <div className='flex items-center'>№</div>
             </th>
             <th scope='col' className='px-6 py-3'>
-              НІк
+              Username
             </th>
             <th scope='col' className='px-6 py-3'>
-              Дата
+              Date
             </th>
             <th scope='col' className='px-6 py-3'>
-              Дія
+              Action
             </th>
           </tr>
         </thead>
@@ -43,7 +43,7 @@ const LikesPage = () => {
             <td className='px-6 py-4'>
               <div className='flex items-center'>
                 <FaHeart size={22} className='text-red-500 mx-2' />
-                Вподобав твій профіль
+                Liked your profile
               </div>
             </td>
           </tr>

@@ -7,7 +7,9 @@ const LoginPage = () => {
     <div className='flex flex-col items-center justify-center px-6 py-8 mx-auto h-screen lg:py-0'>
       <div className='w-full bg-glass rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0'>
         <div className='p-6 space-y-4 md:space-y-6 sm:p-8'>
-          <h1 className='text-xl font-bold  md:text-2xl text-center'>Увійти</h1>
+          <h1 className='text-xl font-bold  md:text-2xl text-center'>
+            Login to your account
+          </h1>
           <button
             type='button'
             className='text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 
@@ -16,12 +18,12 @@ const LoginPage = () => {
             //onClick={handleLoginWithGithub}
           >
             <FaGithub className='w-5 h-5' />
-            Увійти з Github
+            Login with Github
           </button>
           <p className='text-sm font-light text-gray-500'>
-            {"Не"} маєте акаунт?{" "}
+            {"Don't"} have an account?{" "}
             <Link to='/signup' className='font-medium text-primary-600 hover:underline text-blue-600'>
-              Зареєструватися
+              Sign Up
             </Link>
           </p>
         </div>
