@@ -4,6 +4,7 @@ import { FaHeart } from "react-icons/fa";
 import { MdOutlineExplore } from "react-icons/md";
 import { PiSignInBold } from "react-icons/pi";
 import { MdEditDocument } from "react-icons/md";
+import Logout from './Logout';
 
 const Sidebar = () => {
   const authUser = true;
@@ -69,4 +70,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
