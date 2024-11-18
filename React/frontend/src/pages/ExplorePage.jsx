@@ -13,11 +13,7 @@ const ExplorePage = () => {
     setLoading(true);
     setRepos([]);
     try {
-      const res = await fetch("/api/explore/repos/" + language, {
-        headers: {
-          autorization: "token ${import.meta.env.VITE_GITHUB_TOKEN}",
-        },
-      });
+      const res = await fetch("http://localhost:4000/api/explore/repos/" + language);
       const { repos } = await res.json();
       setRepos(repos);
 
