@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Search = (onSearch) => {
 const [username, setUsername] = useState("");
-
+    
     return (
         <form className='max-w-xl mx-auto p-2'>
             onSubmit={(e) => onSearch(e, username)}
