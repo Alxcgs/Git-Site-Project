@@ -13,7 +13,7 @@ const ExplorePage = () => {
     setLoading(true);
     setRepos([]);
     try {
-      ТРЕБА_ВИПРАВИТИ const res = await fetch("/api/explore/repos/" + language);
+      const res = await fetch("/api/explore/repos/" + language);
       const { repos } = await res.json();
       setRepos(repos);
 

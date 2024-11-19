@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,9 +10,8 @@ body{
   background-attachment: fixed;
 }
 
-
-/* Dark mode looking scrolbar */
-::-webkit-scrollbar{
+/* dark mode looking scrollbar */
+::-webkit-scrollbar {
   width: 8px;
 }
 
@@ -30,8 +29,7 @@ body{
 }
 
 @layer components {
-  .bg-glass{
-    @apply bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 
-    border border-gray-800 text-white hover:bg-gray-600/10
+  .bg-glass {
+    @apply bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 hover:bg-gray-600/10 border border-gray-800 text-white;
   }
 }
